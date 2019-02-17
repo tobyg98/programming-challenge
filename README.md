@@ -24,6 +24,27 @@ Sourced from [QLD Gov OpenData Portal](https://data.qld.gov.au/dataset/ambient-e
 
 The application reads in a csv file containing data about Baffle Creek (Current  velocity & direction), it then processes this data and outputs some summary information in a HTML for consumption via a browser. 
 
+
+
+## Technology 
+
+You will need, 
+
+-  JDK 11 which is available [here](https://jdk.java.net/11/), and 
+
+- Maven 3 which can be found [here](https://maven.apache.org/download.cgi).
+
+To run the given application, 
+
+1. ``mvn clean install``
+2. ``mvn exec:java``
+
+To run tests, 
+
+``mvn test``
+
+It is recommended to make use of an IDE such as Eclipse or Intellij.
+
 ## Task 
 
 1. Fix the tests for the existing application to ensure that it is working correctly
@@ -37,7 +58,7 @@ The application reads in a csv file containing data about Baffle Creek (Current 
 
 3. Update the tests to provide coverage for these changes. 
 
-4. Alter the application to read the latest data set from the QLD Govevernment Open data portal. HINT: Open data is hosted via an application called CKAN. There are multiple ways of achieving this.
+4. Alter the application to read the latest data set from the QLD Govevernment Open data portal. HINT: Open data is hosted via an application called CKAN. There are multiple ways of achieving this. The data is accessible [here](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day).
 
    
 
