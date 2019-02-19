@@ -37,7 +37,7 @@ You will need,
 To run the given application, 
 
 1. ``mvn clean install``
-2. ``mvn exec:java``
+2. ``mvn exec:java`` // TODO: Make sure this loads the properties file properly
 
 To run tests, 
 
@@ -46,19 +46,22 @@ To run tests,
 It is recommended to make use of an IDE such as Eclipse or Intellij.
 
 ## Task 
+1. Fork the repository
 
-1. Fix the tests for the existing application to ensure that it is working correctly
+2. Fix the tests for the existing application to ensure that it is working correctly
 
-2. Update the Summary produced by the application to include the following details, 
+3. Update the Summary produced by the application to include the following details, 
 
    - Average for each of the columns (excluding timestamp),
    - TODO: Do we want more here. 
 
    These will be presented in the `index.html` file that is produced through a browser. No special styling is required. 
 
-3. Update the tests to provide coverage for these changes. 
+4. Update the tests to provide coverage for these changes. 
 
-4. Alter the application to read the latest data set from the QLD Govevernment Open data portal. HINT: Open data is hosted via an application called CKAN. There are multiple ways of achieving this. The data is accessible [here](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day).
+5. Alter the application to read the latest data set from the QLD Govevernment Open data portal. HINT: Open data is hosted via an application called CKAN. There are multiple ways of achieving this. The data is accessible [here](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day).
+
+6. Create a merge request for your fork for us to review.
 
    
 
