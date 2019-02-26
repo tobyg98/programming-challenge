@@ -44,5 +44,4 @@ public class VelocityAndDirectionData {
     private Double dscMaxTiltAvg;
 
     private Double dcsStdTiltAvg;
-
 }

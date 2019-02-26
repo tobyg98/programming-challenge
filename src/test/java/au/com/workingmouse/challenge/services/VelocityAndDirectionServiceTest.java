@@ -124,34 +124,4 @@ class VelocityAndDirectionServiceTest {
         assertEquals(VelocityAndDirectionService.summerise(dataToSummarise),
                 VelocityAndDirectionService.summerise(actualDataToSummarise));
     }
-
-    @Test
-    void getTableAveragesTest() {
-        List<String> tableRows = new ArrayList<>();
-        tableRows.add(VALID_LINE);  // Stand in for header
-        tableRows.add(VALID_LINE);
-        tableRows.add(VALID_LINE2);
-        tableRows.add(VALID_LINE3);
-        List<VelocityAndDirectionData> tableData = VelocityAndDirectionService.parseLines(tableRows);
-
-        HashMap<String, List<Object>> columns = VelocityAndDirectionService.buildColumns(tableData);
-        HashMap<String, Double> averages = VelocityAndDirectionService.getTableAverages(columns);
-
-        // Lazy way of checking that every value in the expected is present in the given set
-        // Expected Value should be a HashMap similar to that returned by getTableAverages
-        int hits = 0;
-        for(Double average : averages.values()) {
-            int initialHits = hits;
-            for (Double expected : EXPECTED_AVERAGES) {
-                if (average.equals(expected)) {
-                    hits++;
-                }
-            }
-            if(hits == initialHits) {
-                fail("An expected value was not detected.");
-            }
-        }
-
-        assertEquals(hits, EXPECTED_AVERAGES.length);
-    }
 }

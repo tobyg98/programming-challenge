@@ -79,12 +79,10 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.4.0</version>
                 <configuration>
+                    <includePluginDependencies>true</includePluginDependencies>
                     <mainClass>au.com.workingmouse.challenge.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
-
-    
 </project>
