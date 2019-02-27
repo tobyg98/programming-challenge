@@ -9,8 +9,9 @@
 
 - Should not take much more than an hour, we do not mind if you spend longer we just realise that people have lives. 
 - Complete the problems to the best of your ability. There is no hard requirement to complete every part of the challenge, just try to ensure what you do complete works. 
-- Complete the challenge in any way you wish, the only provision is that it meets the requirements.
+- Complete the challenge in any way you wish, the only provision is that it meets the **requirements**.
 - You are welcome to make improvements outside of the set of the requirements however it is not expected.
+- An application has been provided to assist you.
 
 
 
@@ -45,8 +46,6 @@ To run tests,
 
 It is recommended to make use of an IDE such as Eclipse or Intellij. 
 
-
-
 __NOTE:__ This activity makes use of a library called Lombok to reduce boiler plate code (ide, constructors, getters, setters, hashcode etc), if you make use of an IDE  you may need to enable support. Details of the lombok project can be found [here](https://projectlombok.org/).
 
 ## Task 
@@ -74,12 +73,18 @@ __NOTE:__ This activity makes use of a library called Lombok to reduce boiler pl
 
 The files and methods that you will need to edit include but may not be limited to (depending on your solution), 
 
-- ``VelocityAndDirectionService::buildColumns``
-
-TODO:
+- ``VelocityAndDirectionService::summerise``
 
 
 
-Add a http client with JSON dependency 
+## Requirements
+
+1. Read in the file found in `/src/main/resources/` called `buoy-2-current.csv` and calculate averages for all columns excluding timestamp.
+
+2. The results must be output to a html file that is submitted upon completion (i.e stored on git.)
+
+3. Read in the most up to date data from OpenData for the same data set as sourced from [QLD Gov OpenData Portal](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day/resource/0ca6f77c-4088-4d77-8c88-beae2b57ce14)  and complete steps one and two again but with the lastest data 
+4. Write tests to provide validation of your work, they must provide adequate coverage. Be prepared to explain why your solution provides adequate coverage.
+5. Submit your solution at ...TODO
 
 broken tests.

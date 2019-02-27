@@ -9,7 +9,6 @@ import org.junit.jupiter.api.function.Executable;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -100,7 +99,6 @@ class VelocityAndDirectionServiceTest {
     @Test
     void parseMultipleLinesTest() {
        var lines = VelocityAndDirectionService.parseLines(Arrays.asList(
-                VALID_LINE, // Add a 3rd line in to act as the header (parser skips first line by default)
                 VALID_LINE,
                 VALID_LINE
         ));
@@ -121,7 +119,7 @@ class VelocityAndDirectionServiceTest {
         dataToSummarise.add(velocityAndDirectionData);
         actualDataToSummarise.add(actualVelocityAndDirectionData);
 
-        assertEquals(VelocityAndDirectionService.summerise(dataToSummarise),
-                VelocityAndDirectionService.summerise(actualDataToSummarise));
+        assertEquals(VelocityAndDirectionService.summarise(dataToSummarise),
+                VelocityAndDirectionService.summarise(actualDataToSummarise));
     }
 }

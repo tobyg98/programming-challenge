@@ -86,13 +86,12 @@ public class VelocityAndDirectionService {
     }
 
 
-    public static String summerise(List<VelocityAndDirectionData> velocityAndDirectionDataset) {
+    public static String summarise(List<VelocityAndDirectionData> velocityAndDirectionDataset) {
         Integer totalLines = velocityAndDirectionDataset.size();
 
         var summaryBuilder = new StringBuilder() ;
 
         // Transform dataset to be listed in columns rather than rows
-        HashMap<String, List<Object>> datasetColumns = buildColumns(velocityAndDirectionDataset);
 
         summaryBuilder.append("<head></head>")
                 .append("<body>")
@@ -106,23 +105,5 @@ public class VelocityAndDirectionService {
                 .append("</body>");
 
         return summaryBuilder.toString();
-    }
-
-
-    /**
-     * Converts the given list of dataset table rows into a map of dataset table columns.
-     * @require velocityAndDirectionDataset != null
-     * @param velocityAndDirectionDataset - list of dataset rows
-     * @return HashMap {String columnName : ObjectList columnValues}
-     */
-    public static HashMap<String, List<Object>> buildColumns(
-            List<VelocityAndDirectionData> velocityAndDirectionDataset) {
-
-        // Initialise Map of columns
-        HashMap<String, List<Object>> columns = new HashMap<>();
-
-        // TODO: You will need to build the columns here.
-
-        return columns;
     }
 }

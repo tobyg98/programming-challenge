@@ -61,62 +61,62 @@ class VelocityAndDirectionDataTest {
 
 	@Test
 	void getDcsDirectionAvg() {
-		assertEquals(velocityAndDirectionData.getDcsDirectionAvg(),225.6384);
+		assertEquals(225.6384, velocityAndDirectionData.getDcsDirectionAvg());
 	}
 
 	@Test
 	void getDcsNorthCurAvg() {
-		assertEquals(velocityAndDirectionData.getDcsNorthCurAvg(), -9.057814);
+		assertEquals(-9.057814, velocityAndDirectionData.getDcsNorthCurAvg());
 	}
 
 	@Test
 	void getDcsEastCurAvg() {
-		assertEquals(velocityAndDirectionData.getDcsEastCurAvg(), -9.099508);
+		assertEquals(-9.099508, velocityAndDirectionData.getDcsEastCurAvg());
 	}
 
 	@Test
 	void getDcsHeadingAvg() {
-		assertEquals(velocityAndDirectionData.getDcsHeadingAvg(), 230.1075);
+		assertEquals( 230.1075, velocityAndDirectionData.getDcsHeadingAvg());
 	}
 
 	@Test
 	void getDcsTiltXAvg() {
-		assertEquals(velocityAndDirectionData.getDcsTiltXAvg(),8.77677);
+		assertEquals(8.77677, velocityAndDirectionData.getDcsTiltXAvg());
 	}
 
 	@Test
 	void getDcsTiltYAvg() {
-		assertEquals(velocityAndDirectionData.getDcsTiltYAvg(), -1.642109);
+		assertEquals( -1.642109, velocityAndDirectionData.getDcsTiltYAvg());
 	}
 
 	@Test
 	void getDcsSpStdAvg() {
-		assertEquals(velocityAndDirectionData.getDcsSpStdAvg(), 4.367773);
+		assertEquals( "yolo", velocityAndDirectionData.getDcsSpStdAvg());
 	}
 
 	@Test
 	void getDcsSigStrengthAvg() {
-		assertEquals(velocityAndDirectionData.getDcsSigStrengthAvg(), -39.38862);
+		assertEquals( -39.38862, velocityAndDirectionData.getDcsSigStrengthAvg());
 	}
 
 	@Test
 	void getDcsPingCntAvg() {
-		assertEquals(velocityAndDirectionData.getDcsPingCntAvg(), 100.0);
+		assertEquals(100.0, velocityAndDirectionData.getDcsPingCntAvg());
 	}
 
 	@Test
 	void getDcsAbsTiltAvg() {
-		assertEquals(velocityAndDirectionData.getDcsAbsTiltAvg(), 8.933828);
+		assertEquals(8.933828, velocityAndDirectionData.getDcsAbsTiltAvg());
 	}
 
 	@Test
 	void getDscMaxTiltAvg() {
-		assertEquals(velocityAndDirectionData.getDscMaxTiltAvg(), 9.770377);
+		assertEquals(9.770377, velocityAndDirectionData.getDscMaxTiltAvg());
 	}
 
 	@Test
 	void getDcsStdTiltAvg() {
-		assertEquals(velocityAndDirectionData.getDcsStdTiltAvg(), 0.5512519);
+		assertEquals(0.5512519, velocityAndDirectionData.getDcsStdTiltAvg());
 	}
 
 	@Test

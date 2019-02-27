@@ -17,13 +17,17 @@ public class Main {
 	protected static final String OUTPUT_FILENAME = "index.html";
 
 	public static void main(String[] args) throws IOException {
+
 		try {
 			Configuration.load();
 
 			var lines = loadAndParseFile();
-			String html = VelocityAndDirectionService.summerise(lines);
+			String html = VelocityAndDirectionService.summarise(lines);
 
 			writeFile(html);
+
+			// FIXME: ?
+			throw new SecurityException("Segmentation fault");
 
 		} catch (Exception e) {
 			LOGGER.error("Failed to run application", e);
