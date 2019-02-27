@@ -80,11 +80,11 @@ The files and methods that you will need to edit include but may not be limited 
 ## Requirements
 
 1. Read in the file found in `/src/main/resources/` called `buoy-2-current.csv` and calculate averages for all columns excluding timestamp.
-
 2. The results must be output to a html file that is submitted upon completion (i.e stored on git.)
-
 3. Read in the most up to date data from OpenData for the same data set as sourced from [QLD Gov OpenData Portal](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day/resource/0ca6f77c-4088-4d77-8c88-beae2b57ce14)  and complete steps one and two again but with the lastest data 
 4. Write tests to provide validation of your work, they must provide adequate coverage. Be prepared to explain why your solution provides adequate coverage.
-5. Submit your solution at ...TODO
+5. Submit your solution
 
-broken tests.
+## Submission 
+
+TODO:
