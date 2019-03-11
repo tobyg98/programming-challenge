@@ -38,7 +38,7 @@ You will need,
 To run the given application, 
 
 1. ``mvn clean install``
-2. ``mvn exec:java`` // TODO: Make sure this loads the properties file properly
+2. ``mvn exec:java`` // NOTE: This currently does not work, feel free to fix it or use an IDE like Intellij. 
 
 To run tests, 
 
@@ -89,8 +89,9 @@ The files and methods that you will need to edit include but may not be limited 
 
 __YOU WILL NOT BE ABLE TO PUSH DIRECTLY TO THIS REPOSITORY!!__
 
-1. Clone this repository
+1. Clone this repository i.e ``git clone https://github.com/WorkingMouse/programming-challenge.git``
 2. Create a branch, call it _firstname_lastname_. i.e ``git checkout -b  firstname_lastname``
 3. Complete your solution, feel free to add and commit to your local repository. Feel free to google this or have a look at one of the many guides available like http://git.huit.harvard.edu/guide/
-4. Create a patch of your work by running ``git diff master..firstname_lastname > firstname_lastname.patch``
-5. Email your new patch file (``firstname_lastname.patch``) to serena@codebots.com
+4 Make sure both your solution and the output index.html file are included. 
+5. Create a patch of your work by running ``git diff master..firstname_lastname > firstname_lastname.patch``
+6. Email your new patch file (``firstname_lastname.patch``) to serena@codebots.com
