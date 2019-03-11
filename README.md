@@ -86,5 +86,8 @@ The files and methods that you will need to edit include but may not be limited 
 5. Submit your solution
 
 ## Submission 
-
-TODO:
+1. Clone this repository
+2. Create a branch, call it whatever you want.
+3. Complete your solution 
+4. Create a patch of your work by running ``git diff master..yourbranchname > firstname_lastname.patch``
+5. Email your new patch file (``firstname_lastname.patch``) to serena@codebots.com
