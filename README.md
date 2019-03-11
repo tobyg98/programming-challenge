@@ -14,7 +14,6 @@
 - An application has been provided to assist you.
 
 
-
 ## Data 
 
 Sourced from [QLD Gov OpenData Portal](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day/resource/0ca6f77c-4088-4d77-8c88-beae2b57ce14).
@@ -26,14 +25,15 @@ Sourced from [QLD Gov OpenData Portal](https://data.qld.gov.au/dataset/ambient-e
 The application reads in a csv file containing data about Baffle Creek (Current  velocity & direction), it then processes this data and outputs some summary information in a HTML for consumption via a browser. 
 
 
-
 ## Technology 
 
 You will need, 
 
--  JDK 11 which is available [here](https://jdk.java.net/11/), and 
+- JDK 11 which is available [here](https://jdk.java.net/11/), and 
 
 - Maven 3 which can be found [here](https://maven.apache.org/download.cgi).
+
+- [Git](https://git-scm.com/downloads)
 
 To run the given application, 
 
@@ -86,8 +86,11 @@ The files and methods that you will need to edit include but may not be limited 
 5. Submit your solution
 
 ## Submission 
+
+__YOU WILL NOT BE ABLE TO PUSH DIRECTLY TO THIS REPOSITORY!!__
+
 1. Clone this repository
-2. Create a branch, call it whatever you want.
-3. Complete your solution 
-4. Create a patch of your work by running ``git diff master..yourbranchname > firstname_lastname.patch``
+2. Create a branch, call it _firstname_lastname_. i.e ``git checkout -b  firstname_lastname``
+3. Complete your solution, feel free to add and commit to your local repository. Feel free to google this or have a look at one of the many guides available like http://git.huit.harvard.edu/guide/
+4. Create a patch of your work by running ``git diff master..firstname_lastname > firstname_lastname.patch``
 5. Email your new patch file (``firstname_lastname.patch``) to serena@codebots.com
