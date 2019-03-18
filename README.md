@@ -66,7 +66,7 @@ __NOTE:__ This activity makes use of a library called Lombok to reduce boiler pl
 
 5. Alter the application to read the latest data set from the QLD Govevernment Open data portal. HINT: Open data is hosted via an application called CKAN. There are multiple ways of achieving this. The data is accessible [here](https://data.qld.gov.au/dataset/ambient-estuarine-water-quality-monitoring-data-near-real-time-sites-2012-to-present-day).
 
-6. Create a merge request for your fork for us to review.
+6. Submit as per [Submission](#submission)
 
 
 ## Help
